@@ -1,8 +1,8 @@
 {
-  "name": "find-the-city",
+  "name": "find-the-country",
   "version": "0.0.1",
-  "description": "Find the city guessing game",
-  "main": "cities.js",
+  "description": "Find the country guessing game",
+  "main": "find.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
