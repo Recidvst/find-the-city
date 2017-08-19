@@ -1,0 +1,32 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', monospace;
+  .fa {
+      font-family: FontAwesome;
+  }
+}
+
+// map board
+section#map-box {
+    img {
+        max-width: 100%;
+        position: relative;
+        display: block;
+    }
+}
+section.results {
+}
+
+
+// pins
+div[class^="pin-"] {
+  position: absolute;
+  z-index: 2;
+  transform: translate(25%, -100%);
+  &:after {
+    content: '\f08d';
+    font-family: FontAwesome;
+    font-size: 30px;
+  }
+}
