@@ -20,7 +20,7 @@ section.results {
 
 
 // pins
-div[class^="pin-"] {
+div[class^="pin-"], div[class^="city-"] {
   position: absolute;
   z-index: 2;
   transform: translate(25%, -100%);
